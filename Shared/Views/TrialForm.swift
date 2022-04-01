@@ -23,9 +23,10 @@ struct TrialForm: View {
                 Button {
 
                 } label: {
-                    
+                    ClaimButton()
                 }
             }
+            .padding(20)
         }
         .cornerRadius(10)
         .padding(.horizontal, 20)
