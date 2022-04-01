@@ -17,15 +17,20 @@ struct TrialForm: View {
             Color.white
             VStack {
                 TextField("First Name", text: $firstName)
+                    .keyboardType(.default)
                 TextField("Last Name", text:  $lastName)
+                    .keyboardType(.default)
                 TextField("Email Address", text: $emailAddress)
+                    .keyboardType(.emailAddress)
                 TextField("Password", text: $password)
+                    .keyboardType(.default)
                 Button {
 
                 } label: {
                     ClaimButton()
                 }
             }
+            .textInputAutocapitalization(.never)
             .padding(20)
         }
         .cornerRadius(10)
