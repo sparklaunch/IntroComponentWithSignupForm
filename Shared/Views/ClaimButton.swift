@@ -16,7 +16,7 @@ struct ClaimButton: View {
                 .font(.title3)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
-                .padding(30)
+                .padding(20)
                 .fixedSize(horizontal: false, vertical: true)
         }
         .cornerRadius(10)

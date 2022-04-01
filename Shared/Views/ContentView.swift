@@ -23,6 +23,7 @@ struct ContentView: View {
                     }
                 }
             }
+            .padding(.vertical, 100)
         }
         .edgesIgnoringSafeArea(.all)
         .background(Color("BackgroundColor"))
