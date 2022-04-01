@@ -13,7 +13,7 @@ struct Title: View {
     var body: some View {
         VStack(spacing: 15) {
             Text(title)
-                .font(.title)
+                .font(.largeTitle)
                 .fontWeight(.heavy)
                 .foregroundColor(.white)
                 .fixedSize(horizontal: false, vertical: true)
