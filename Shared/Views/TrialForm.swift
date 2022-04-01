@@ -20,48 +20,10 @@ struct TrialForm: View {
         ZStack {
             Color.white
             VStack(spacing: 10) {
-                VStack(spacing: 5) {
-                    ZStack {
-                        TextField("First Name", text: $firstName)
-                            .keyboardType(.default)
-                            .onSubmit {
-                                validateTextFields()
-                        }
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 10, style: .continuous)
-                                    .strokeBorder(Color("BackgroundColor").opacity(firstNameEmptyWarning ? 1 : .zero), lineWidth: 2))
-                        HStack {
-                            Spacer()
-                            WarningIcon()
-                                .padding(.horizontal, 30)
-                                .opacity(firstNameEmptyWarning ? 1 : .zero)
-                        }
-                    }
-                    HStack {
-                        Spacer()
-                        Text("First Name cannot be empty")
-                            .font(.caption)
-                            .fontWeight(.regular)
-                            .foregroundColor(Color("BackgroundColor"))
-                            .italic()
-                            .opacity(firstNameEmptyWarning ? 1 : .zero)
-                    }
-                }
-                TextField("Last Name", text:  $lastName)
-                    .keyboardType(.default)
-                    .onSubmit {
-                        validateTextFields()
-                    }
-                TextField("Email Address", text: $emailAddress)
-                    .keyboardType(.emailAddress)
-                    .onSubmit {
-                        validateTextFields()
-                    }
-                TextField("Password", text: $password)
-                    .keyboardType(.default)
-                    .onSubmit {
-                        validateTextFields()
-                    }
+                TextFieldTemplate(warningText: "First Name cannot be empty", submitHandler: validateTextFields, value: $firstName, warning: $firstNameEmptyWarning)
+                TextFieldTemplate(warningText: "Last Name cannot be empty", submitHandler: validateTextFields, value: $lastName, warning: $lastNameEmptyWarning)
+                TextFieldTemplate(warningText: "Email Address cannot be empty", submitHandler: validateTextFields, value: $emailAddress, warning: $emailAddressEmptyWarning)
+                TextFieldTemplate(warningText: "Password cannot be empty", submitHandler: validateTextFields, value: $password, warning: $passwordEmptyWarning)
                 Button {
                     validateTextFields()
                 } label: {
