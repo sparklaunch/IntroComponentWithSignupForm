@@ -19,6 +19,7 @@
 		909D676027F6C9E90012E3B9 /* TrialForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D675F27F6C9E90012E3B9 /* TrialForm.swift */; };
 		909D676227F6CB440012E3B9 /* ClaimButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D676127F6CB440012E3B9 /* ClaimButton.swift */; };
 		909D676527F79AE80012E3B9 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D676427F79AE80012E3B9 /* CustomTextFieldStyle.swift */; };
+		909D676727F7B3D50012E3B9 /* WarningIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D676627F7B3D50012E3B9 /* WarningIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		909D675F27F6C9E90012E3B9 /* TrialForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialForm.swift; sourceTree = "<group>"; };
 		909D676127F6CB440012E3B9 /* ClaimButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimButton.swift; sourceTree = "<group>"; };
 		909D676427F79AE80012E3B9 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
+		909D676627F7B3D50012E3B9 /* WarningIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				909D675D27F6C7790012E3B9 /* PromotionCard.swift */,
 				909D675F27F6C9E90012E3B9 /* TrialForm.swift */,
 				909D676127F6CB440012E3B9 /* ClaimButton.swift */,
+				909D676627F7B3D50012E3B9 /* WarningIcon.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				909D676727F7B3D50012E3B9 /* WarningIcon.swift in Sources */,
 				909D675C27F6C6150012E3B9 /* Title.swift in Sources */,
 				909D674A27F6C3650012E3B9 /* ContentView.swift in Sources */,
 				909D676527F79AE80012E3B9 /* CustomTextFieldStyle.swift in Sources */,
