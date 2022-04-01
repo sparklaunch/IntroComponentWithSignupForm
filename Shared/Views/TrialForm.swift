@@ -15,7 +15,7 @@ struct TrialForm: View {
     var body: some View {
         ZStack {
             Color.white
-            VStack {
+            VStack(spacing: 15) {
                 TextField("First Name", text: $firstName)
                     .keyboardType(.default)
                 TextField("Last Name", text:  $lastName)
@@ -30,6 +30,7 @@ struct TrialForm: View {
                     ClaimButton()
                 }
             }
+            .textFieldStyle(CustomTextFieldStyle())
             .textInputAutocapitalization(.never)
             .padding(20)
         }

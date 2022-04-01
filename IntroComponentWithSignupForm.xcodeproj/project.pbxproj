@@ -18,6 +18,7 @@
 		909D675E27F6C7790012E3B9 /* PromotionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D675D27F6C7790012E3B9 /* PromotionCard.swift */; };
 		909D676027F6C9E90012E3B9 /* TrialForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D675F27F6C9E90012E3B9 /* TrialForm.swift */; };
 		909D676227F6CB440012E3B9 /* ClaimButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D676127F6CB440012E3B9 /* ClaimButton.swift */; };
+		909D676527F79AE80012E3B9 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D676427F79AE80012E3B9 /* CustomTextFieldStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		909D675D27F6C7790012E3B9 /* PromotionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionCard.swift; sourceTree = "<group>"; };
 		909D675F27F6C9E90012E3B9 /* TrialForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialForm.swift; sourceTree = "<group>"; };
 		909D676127F6CB440012E3B9 /* ClaimButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimButton.swift; sourceTree = "<group>"; };
+		909D676427F79AE80012E3B9 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		909D673727F6C3640012E3B9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				909D676327F79ACE0012E3B9 /* Utilities */,
 				909D675827F6C3900012E3B9 /* App */,
 				909D675727F6C38B0012E3B9 /* Models */,
 				909D675627F6C3840012E3B9 /* Views */,
@@ -115,6 +118,14 @@
 				909D673827F6C3640012E3B9 /* IntroComponentWithSignupFormApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		909D676327F79ACE0012E3B9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				909D676427F79AE80012E3B9 /* CustomTextFieldStyle.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +228,7 @@
 			files = (
 				909D675C27F6C6150012E3B9 /* Title.swift in Sources */,
 				909D674A27F6C3650012E3B9 /* ContentView.swift in Sources */,
+				909D676527F79AE80012E3B9 /* CustomTextFieldStyle.swift in Sources */,
 				909D676027F6C9E90012E3B9 /* TrialForm.swift in Sources */,
 				909D674827F6C3650012E3B9 /* IntroComponentWithSignupFormApp.swift in Sources */,
 				909D675A27F6C5260012E3B9 /* Background.swift in Sources */,
