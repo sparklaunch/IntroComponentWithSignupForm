@@ -29,6 +29,9 @@ struct TrialForm: View {
                 } label: {
                     ClaimButton()
                 }
+                Spacer()
+                    .frame(height: 10)
+                TermsAndServices()
             }
             .textFieldStyle(CustomTextFieldStyle())
             .textInputAutocapitalization(.never)
@@ -37,6 +40,7 @@ struct TrialForm: View {
         .cornerRadius(10)
         .padding(.horizontal, 20)
         .scaledToFit()
+        .frame(maxWidth: .infinity)
         .shadow(color: .black.opacity(0.5), radius: 10, x: .zero, y: 10)
     }
     func validateTextFields() -> Void {

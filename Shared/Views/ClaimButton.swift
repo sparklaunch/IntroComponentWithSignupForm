@@ -11,16 +11,15 @@ struct ClaimButton: View {
     var body: some View {
         ZStack {
             Color("ButtonColor")
-                .frame(height: 80)
             Text("CLAIM YOUR FREE TRIAL")
                 .tracking(1)
                 .font(.title3)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
-                .padding(.horizontal, 30)
+                .padding(30)
+                .fixedSize(horizontal: false, vertical: true)
         }
         .cornerRadius(10)
-        .scaledToFit()
         .shadow(color: .black.opacity(0.5), radius: 10, x: .zero, y: 10)
     }
 }
@@ -28,7 +27,7 @@ struct ClaimButton: View {
 struct ClaimButton_Previews: PreviewProvider {
     static var previews: some View {
         ClaimButton()
+            .previewLayout(.fixed(width: 500, height: 100))
             .padding()
-            .previewLayout(.sizeThatFits)
     }
 }

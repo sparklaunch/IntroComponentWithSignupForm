@@ -19,8 +19,6 @@ struct ContentView: View {
                         Spacer()
                             .frame(height: 50)
                         PromotionCard(tryPeriod: 7, monthlyFee: 20)
-                        Spacer()
-                            .frame(height: 30)
                         TrialForm()
                     }
                 }
