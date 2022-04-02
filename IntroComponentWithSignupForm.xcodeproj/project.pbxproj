@@ -22,6 +22,7 @@
 		909D676727F7B3D50012E3B9 /* WarningIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D676627F7B3D50012E3B9 /* WarningIcon.swift */; };
 		909D676927F7B4720012E3B9 /* TextFieldTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D676827F7B4720012E3B9 /* TextFieldTemplate.swift */; };
 		909D676B27F7B6E90012E3B9 /* TermsAndServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D676A27F7B6E90012E3B9 /* TermsAndServices.swift */; };
+		909D676D27F81B370012E3B9 /* EmailTextFieldTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D676C27F81B370012E3B9 /* EmailTextFieldTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		909D676627F7B3D50012E3B9 /* WarningIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningIcon.swift; sourceTree = "<group>"; };
 		909D676827F7B4720012E3B9 /* TextFieldTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTemplate.swift; sourceTree = "<group>"; };
 		909D676A27F7B6E90012E3B9 /* TermsAndServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndServices.swift; sourceTree = "<group>"; };
+		909D676C27F81B370012E3B9 /* EmailTextFieldTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextFieldTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				909D676627F7B3D50012E3B9 /* WarningIcon.swift */,
 				909D676827F7B4720012E3B9 /* TextFieldTemplate.swift */,
 				909D676A27F7B6E90012E3B9 /* TermsAndServices.swift */,
+				909D676C27F81B370012E3B9 /* EmailTextFieldTemplate.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				909D675C27F6C6150012E3B9 /* Title.swift in Sources */,
 				909D674A27F6C3650012E3B9 /* ContentView.swift in Sources */,
 				909D676927F7B4720012E3B9 /* TextFieldTemplate.swift in Sources */,
+				909D676D27F81B370012E3B9 /* EmailTextFieldTemplate.swift in Sources */,
 				909D676527F79AE80012E3B9 /* CustomTextFieldStyle.swift in Sources */,
 				909D676027F6C9E90012E3B9 /* TrialForm.swift in Sources */,
 				909D676B27F7B6E90012E3B9 /* TermsAndServices.swift in Sources */,

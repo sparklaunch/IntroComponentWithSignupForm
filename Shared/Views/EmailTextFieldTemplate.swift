@@ -1,5 +1,5 @@
 //
-//  TextFieldTemplate.swift
+//  EmailTextFieldTemplate.swift
 //  IntroComponentWithSignupForm (iOS)
 //
 //  Created by Jinwook Kim on 2022/04/02.
@@ -7,17 +7,21 @@
 
 import SwiftUI
 
-struct TextFieldTemplate: View {
-    let placeholder: String
-    let warningText: String
+struct EmailTextFieldTemplate: View {
+    let invalidWarningText: String
+    let emptyWarningText: String
     let submitHandler: () -> Void
     @Binding var value: String
-    @Binding var warning: Bool
+    @Binding var emptyWarning: Bool
+    @Binding var invalidWarning: Bool
+    private var warning: Bool {
+        return emptyWarning || invalidWarning
+    }
     var body: some View {
         VStack(spacing: 5) {
             ZStack {
-                TextField(placeholder, text: $value)
-                    .keyboardType(.default)
+                TextField("Email Address", text: $value)
+                    .keyboardType(.emailAddress)
                     .onSubmit {
                         submitHandler()
                     }
@@ -33,7 +37,7 @@ struct TextFieldTemplate: View {
             }
             HStack {
                 Spacer()
-                Text(warningText)
+                Text(emptyWarning ? emptyWarningText : invalidWarningText)
                     .font(.caption)
                     .fontWeight(.regular)
                     .foregroundColor(Color("BackgroundColor"))
