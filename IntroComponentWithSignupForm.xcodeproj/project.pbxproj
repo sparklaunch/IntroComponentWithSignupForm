@@ -23,6 +23,7 @@
 		909D676927F7B4720012E3B9 /* TextFieldTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D676827F7B4720012E3B9 /* TextFieldTemplate.swift */; };
 		909D676B27F7B6E90012E3B9 /* TermsAndServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D676A27F7B6E90012E3B9 /* TermsAndServices.swift */; };
 		909D676D27F81B370012E3B9 /* EmailTextFieldTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D676C27F81B370012E3B9 /* EmailTextFieldTemplate.swift */; };
+		909D676F27F81F370012E3B9 /* PasswordTextFieldTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D676E27F81F370012E3B9 /* PasswordTextFieldTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		909D676827F7B4720012E3B9 /* TextFieldTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTemplate.swift; sourceTree = "<group>"; };
 		909D676A27F7B6E90012E3B9 /* TermsAndServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndServices.swift; sourceTree = "<group>"; };
 		909D676C27F81B370012E3B9 /* EmailTextFieldTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextFieldTemplate.swift; sourceTree = "<group>"; };
+		909D676E27F81F370012E3B9 /* PasswordTextFieldTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				909D676827F7B4720012E3B9 /* TextFieldTemplate.swift */,
 				909D676A27F7B6E90012E3B9 /* TermsAndServices.swift */,
 				909D676C27F81B370012E3B9 /* EmailTextFieldTemplate.swift */,
+				909D676E27F81F370012E3B9 /* PasswordTextFieldTemplate.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				909D675A27F6C5260012E3B9 /* Background.swift in Sources */,
 				909D675E27F6C7790012E3B9 /* PromotionCard.swift in Sources */,
 				909D676227F6CB440012E3B9 /* ClaimButton.swift in Sources */,
+				909D676F27F81F370012E3B9 /* PasswordTextFieldTemplate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

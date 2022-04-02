@@ -24,7 +24,7 @@ struct TrialForm: View {
                 TextFieldTemplate(placeholder: "First Name", warningText: "First Name cannot be empty", submitHandler: validateTextFields, value: $firstName, warning: $firstNameEmptyWarning)
                 TextFieldTemplate(placeholder: "Last Name", warningText: "Last Name cannot be empty", submitHandler: validateTextFields, value: $lastName, warning: $lastNameEmptyWarning)
                 EmailTextFieldTemplate(invalidWarningText: "Email Address is invalid", emptyWarningText: "Email Address cannot be empty", submitHandler: validateEmailAddress, value: $emailAddress, emptyWarning: $emailAddressEmptyWarning, invalidWarning: $emailAddressInvalidWarning)
-                TextFieldTemplate(placeholder: "Password", warningText: "Password cannot be empty", submitHandler: validateTextFields, value: $password, warning: $passwordEmptyWarning)
+                PasswordTextFieldTemplate(placeholder: "Password", warningText: "Password cannot be empty", submitHandler: validateTextFields, value: $password, warning: $passwordEmptyWarning)
                 Button {
                     validateTextFields()
                     validateEmailAddress()
